@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Papaye Menu</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f8f8f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background: #ed1c24;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .menu-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .menu-item {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .menu-item:hover {
+        transform: scale(1.05);
+    }
+
+    .menu-item img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .menu-item h3 {
+        margin: 10px 0;
+        color: #333;
+    }
+
+    .price {
+        color: #ed1c24;
+        font-weight: bold;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background: #222;
+        color: white;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Papaye Menu</h1>
+    <p>Authentic Ghanaian Dishes</p>
+</header>
+
+<section class="menu-container">
+
+    <!-- Your Required Items -->
+    <div class="menu-item">
+        <img src="assets/fufu-groundnut.jpg" alt="Fufu with Groundnut Soup">
+        <h3>Fufu with Groundnut Soup</h3>
+        <p class="price">GHS 45</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/riceballs-palmnut.jpg" alt="Rice Balls with Palm Nut Soup">
+        <h3>Rice Balls with Palm Nut Soup</h3>
+        <p class="price">GHS 40</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/jollof.jpg" alt="Jollof Rice">
+        <h3>Jollof Rice</h3>
+        <p class="price">GHS 35</p>
+    </div>
+
+    <!-- Additional Ghanaian Dishes -->
+    <div class="menu-item">
+        <img src="assets/banku-tilapia.jpg" alt="Banku and Tilapia">
+        <h3>Banku & Tilapia</h3>
+        <p class="price">GHS 50</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/waakye.jpg" alt="Waakye">
+        <h3>Waakye</h3>
+        <p class="price">GHS 30</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/kenkey-fish.jpg" alt="Kenkey with Fish">
+        <h3>Kenkey & Fish</h3>
+        <p class="price">GHS 25</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/light-soup.jpg" alt="Fufu with Light Soup">
+        <h3>Fufu with Light Soup</h3>
+        <p class="price">GHS 45</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/ampesi.jpg" alt="Ampesi with Kontomire">
+        <h3>Ampesi & Kontomire</h3>
+        <p class="price">GHS 28</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/eto.jpg" alt="Eto">
+        <h3>Eto (Mashed Yam with Egg)</h3>
+        <p class="price">GHS 20</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/omo-tuo.jpg" alt="Omo Tuo">
+        <h3>Omo Tuo (Rice Balls)</h3>
+        <p class="price">GHS 35</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/red-red.jpg" alt="Red Red">
+        <h3>Red Red (Beans & Plantain)</h3>
+        <p class="price">GHS 25</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/yam-egg.jpg" alt="Yam and Egg">
+        <h3>Yam & Egg Stew</h3>
+        <p class="price">GHS 22</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="assets/kontomire.jpg" alt="Kontomire Stew">
+        <h3>Kontomire Stew with Rice</h3>
+        <p class="price">GHS 30</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Papaye Fast Food</p>
+</footer>
+
+</body>
+</html>
